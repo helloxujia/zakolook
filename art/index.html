@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>澪 · 中秋 — 文化艺术图</title>
+<style>
+:root{
+  --ink:#2b2723; --ink-2:#5a5148; --ink-3:#8c8177;
+  --paper:#f6f1e7; --paper-2:#efe8db;
+  --line:#d9cfbe; --gold:#b08a3e; --cinnabar:#a8402f;
+  --serif:"LXGW WenKai","霞鹜文楷","Kaiti SC","STKaiti",KaiTi,"Noto Serif SC","Songti SC",serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; color:var(--ink); font-family:var(--serif); line-height:1.9;
+  background-color:var(--paper);
+  background-image:
+    radial-gradient(circle at 18% 12%, #fffdf8 0%, transparent 45%),
+    radial-gradient(circle at 82% 78%, #f2ebdd 0%, transparent 50%),
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/><feColorMatrix type='saturate' values='0'/></filter><rect width='160' height='160' filter='url(%23n)' opacity='0.035'/></svg>");
+}
+.wrap{max-width:1080px;margin:0 auto;padding:56px 20px 72px}
+
+/* ── 卷首 ── */
+header{position:relative;text-align:center;padding:18px 0 8px}
+.seal{
+  position:absolute;left:50%;transform:translateX(-50%);top:-6px;
+  width:34px;height:34px;border:1px solid var(--cinnabar);border-radius:3px;
+  color:var(--cinnabar);font-size:17px;line-height:32px;opacity:.9;
+}
+h1{
+  margin:26px 0 4px;font-size:40px;letter-spacing:.34em;font-weight:400;
+  text-indent:.34em;
+}
+.sub{margin:0;color:var(--ink-3);font-size:14px;letter-spacing:.18em;text-indent:.18em}
+.rule{height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);opacity:.5;margin:26px 0 6px}
+.lead{max-width:30em;margin:16px auto 0;color:var(--ink-2);font-size:15px;text-align:justify;text-indent:2em}
+
+/* ── 画册 ── */
+.gallery{display:grid;gap:30px 24px;margin-top:44px;grid-template-columns:repeat(auto-fill,minmax(238px,1fr))}
+figure{margin:0;opacity:0;transform:translateY(14px);transition:opacity .8s ease,transform .8s ease}
+figure.on{opacity:1;transform:none}
+.plate{
+  display:block;width:100%;border:1px solid var(--line);background:#fff;
+  padding:10px;cursor:zoom-in;border-radius:2px;
+  box-shadow:0 1px 0 #fff inset,0 6px 18px -14px rgba(60,45,25,.5);
+}
+.plate img{display:block;width:100%;height:auto;border-radius:1px}
+figcaption{margin-top:10px;font-size:13px;color:var(--ink-2);display:flex;gap:8px;align-items:baseline}
+.no{color:var(--gold);font-size:12px;letter-spacing:.1em}
+.tone{color:var(--ink-3);font-size:12px;margin-left:auto}
+
+/* ── 放大 ── */
+.viewer{
+  position:fixed;inset:0;display:none;place-items:center;
+  background:rgba(28,24,20,.93);z-index:9;padding:24px;
+}
+.viewer.on{display:grid}
+.viewer img{max-width:100%;max-height:calc(100vh - 120px);border-radius:2px}
+.viewer .cap{color:#e8e0d2;font-size:13px;margin-top:14px;text-align:center;letter-spacing:.1em}
+.viewer .nav{position:fixed;top:50%;transform:translateY(-50%);color:#ded5c6;font-size:26px;
+  background:none;border:0;cursor:pointer;padding:16px;font-family:var(--serif);opacity:.7}
+.viewer .nav:hover{opacity:1}
+.viewer .prev{left:8px} .viewer .next{right:8px}
+.viewer .close{position:fixed;top:14px;right:20px;font-size:22px;color:#ded5c6;background:none;border:0;cursor:pointer}
+
+/* ── 页脚 ── */
+footer{margin-top:64px;padding-top:22px;border-top:1px solid var(--line);color:var(--ink-3);font-size:12.5px}
+footer p{margin:.5em 0}
+footer b{color:var(--ink-2);font-weight:400}
+a{color:var(--gold);text-decoration:none;border-bottom:1px solid rgba(176,138,62,.35)}
+@media (max-width:560px){
+  .wrap{padding:34px 16px 56px}
+  h1{font-size:31px}
+  .gallery{gap:22px 14px;grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
+  .plate{padding:7px}
+  figcaption{font-size:12px;flex-wrap:wrap}
+  .tone{width:100%;margin-left:0}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="seal">澪</div>
+    <h1>中秋</h1>
+    <p class="sub">夏川 · 澪　绘</p>
+    <div class="rule"></div>
+    <p class="lead">
+      一册中秋小图。月、桂、饼、灯，皆在纸上。
+      多为随手所记，不拘工拙，惟愿时节安好。
+    </p>
+  </header>
+
+  <main class="gallery" id="gallery"></main>
+
+  <footer>
+    <p><b>题识</b>　八月十五。月色温柔，桂香满庭。</p>
+    <p><b>授权</b>　本页美术作品著作权归作者所有，<b>不适用本仓库的 AGPL-3.0 代码许可</b>；
+       未经许可请勿转载、二次分发或用于商业用途。详见 <a href="README.md">art/README.md</a>。</p>
+    <p><b>关于她</b>　<a href="https://xiaozayu.top/%E5%A4%8F%E5%B7%9D.%E6%BE%AA/">xiaozayu.top/夏川.澪</a></p>
+    <p><b>来源</b>　<a href="https://gitee.com/xujia2024/zakolook">gitee.com/xujia2024/zakolook</a>
+       ｜ <a href="https://github.com/helloxujia/zakolook">github.com/helloxujia/zakolook</a></p>
+  </footer>
+
+</div>
+
+<div class="viewer" id="viewer">
+  <button class="close" id="vClose" aria-label="关闭">×</button>
+  <button class="nav prev" id="vPrev" aria-label="上一幅">‹</button>
+  <button class="nav next" id="vNext" aria-label="下一幅">›</button>
+  <div>
+    <img id="vImg" alt="">
+    <div class="cap" id="vCap"></div>
+  </div>
+</div>
+
+<script>
+var WORKS = [
+  {f:"01-zako-laugh",      t:"「杂鱼~ 哈哈…」", d:"贝雷帽 · 低头忍笑",   s:"1024 方"},
+  {f:"02-mooncake-give",   t:"「月饼给你~」",   d:"汉服 · 双手奉饼",     s:"1024 方"},
+  {f:"03-mooncake-tasty",  t:"「好吃！」",      d:"校服 · 咬下第一口",   s:"1024 方"},
+  {f:"04-huahaoyueyuan",   t:"「花好月圆」",    d:"抱月 · 合眼而笑",     s:"1024 方"},
+  {f:"05-hug-rabbit",      t:"抱兔",            d:"汉服 · 怀中玉兔",     s:"512 方"},
+  {f:"06-shy",             t:"掩面",            d:"汉服 · 以手遮颜",     s:"420 方"},
+  {f:"07-moonlit-night",   t:"月夜",            d:"立绘 · 湖亭持盏",     s:"竖幅"},
+  {f:"08-midautumn-card",  t:"中秋贺卡",        d:"题识 · 三列小字",     s:"竖幅"}
+];
+
+function pad(n){ return n < 10 ? "0" + n : "" + n }
+var box = document.getElementById("gallery");
+var imgs = [];
+var viewer = document.getElementById("viewer");
+var vImg = document.getElementById("vImg");
+var vCap = document.getElementById("vCap");
+var cur = 0;
+
+WORKS.forEach(function (w, i) {
+  var fig = document.createElement("figure");
+  var ext = (w.f === "07-moonlit-night") ? ".jpg" : ".jpg";
+  var a = document.createElement("a");
+  a.className = "plate";
+  a.href = srcOf(i);
+  a.setAttribute("data-i", i);
+  var im = document.createElement("img");
+  im.loading = "lazy";
+  im.src = "thumbs/" + w.f + ext;
+  im.alt = w.t;
+  a.appendChild(im);
+  var cap = document.createElement("figcaption");
+  cap.innerHTML = '<span class="no">' + pad(i + 1) + '</span><span>' + w.t +
+                  '</span><span class="tone">' + w.d + '</span>';
+  fig.appendChild(a); fig.appendChild(cap);
+  box.appendChild(fig); imgs.push(fig);
+  a.addEventListener("click", function (e) { e.preventDefault(); show(i); });
+});
+
+if ("IntersectionObserver" in window) {
+  var io = new IntersectionObserver(function (es) {
+    es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("on"); io.unobserve(e.target); } });
+  }, { rootMargin: "0px 0px -8% 0px" });
+  imgs.forEach(function (f, i) { f.style.transitionDelay = (i % 4) * 60 + "ms"; io.observe(f); });
+} else {
+  imgs.forEach(function (f) { f.classList.add("on"); });
+}
+
+function srcOf(i) {
+  var w = WORKS[i];
+  return "images/" + w.f + (w.f === "07-moonlit-night" ? ".webp" : ".png");
+}
+function show(i) {
+  cur = (i + WORKS.length) % WORKS.length;
+  var w = WORKS[cur];
+  vImg.src = srcOf(cur);
+  vCap.textContent = pad(cur + 1) + "　" + w.t + "　—　" + w.d;
+  viewer.classList.add("on");
+}
+function hide() { viewer.classList.remove("on"); }
+document.getElementById("vClose").onclick = hide;
+document.getElementById("vPrev").onclick = function () { show(cur - 1); };
+document.getElementById("vNext").onclick = function () { show(cur + 1); };
+viewer.addEventListener("click", function (e) { if (e.target === viewer) hide(); });
+document.addEventListener("keydown", function (e) {
+  if (!viewer.classList.contains("on")) return;
+  if (e.key === "Escape") hide();
+  if (e.key === "ArrowLeft") show(cur - 1);
+  if (e.key === "ArrowRight") show(cur + 1);
+});
+</script>
+</body>
+</html>

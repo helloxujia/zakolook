@@ -1,0 +1,38 @@
+name: ci
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: src/go.mod
+
+      - name: gofmt
+        working-directory: src
+        run: |
+          out=$(gofmt -l .)
+          if [ -n "$out" ]; then
+            echo "以下文件不符合 gofmt 格式："
+            echo "$out"
+            exit 1
+          fi
+
+      - name: go vet
+        working-directory: src
+        run: go vet ./...
+
+      - name: build
+        working-directory: src
+        env:
+          CGO_ENABLED: '0'
+          GOOS: linux
+          GOARCH: arm64
+        run: go build -trimpath -ldflags="-s -w" -o /tmp/zql .

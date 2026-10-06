@@ -1,0 +1,39 @@
+ZakoQLook (zql) — 作者与版权
+============================
+
+原项目 / Original project
+  https://gitee.com/xujia2024/zakolook（镜像 / Mirror: https://github.com/helloxujia/zakolook）
+
+版权持有人 / Copyright holder
+  Copyright (c) 2026 xujia2024
+
+作者署名与别名 / Author name and aliases
+  主署名（用于版权声明、SPDX 头、二进制输出）
+      xujia2024
+  别名（同一作者的其它公开身份）
+      helloxujia2024
+      helloxujia
+      幸せな小さな雑魚
+      民間の人民の利益を取る
+
+  上述名称均指同一权利人。以笔名/别名署名的作品同样受著作权保护
+    （《著作权法》及《伯尔尼公约》均承认；权利人身份可依 Gitee 账号
+     https://gitee.com/xujia2024 与提交记录核验）。
+
+  变更任一署名写法时，需同步更新：
+     LICENSE（末尾 §7 追加条款）、NOTICE、AUTHORS、
+     各源文件 SPDX 头、main.go 中的 authorName、README
+
+主要作者分工
+  xujia2024 —— 项目发起、整体设计、NTQQ 库解密链路、
+               QQ 频道库（gpro）逆向与实现、文档
+
+贡献者 / Contributors
+  （暂无。新贡献者请用 DCO 签名提交：`git commit -s`，
+    格式 Signed-off-by: 名字 <邮箱>）
+
+许可 / License
+  本项目以 AGPL-3.0-or-later 分发，全文见 LICENSE。
+  LICENSE 末尾含依第 7 条提出的追加条款（必须声明原项目仓库等）。
+
+  第三方来源声明见 NOTICE，名称与标识规则见 TRADEMARK.md。
