@@ -23,11 +23,11 @@
 | `.github/workflows/ci.yml` | 763 | `b3972a898c8cacc1b033830fa99517c1` |
 | `.gitignore` | 36 | `3e6ed1f7aaf9a5a714401604eb287698` |
 | `AUTHORS` | 1529 | `98b62fd9f19ea164e28f46e0dbcd4190` |
-| `CHANGELOG.md` | 3139 | `9300f1b5621e85c291ebb6a8c3316cf0` |
+| `CHANGELOG.md` | 3134 | `79524ddaa55aa05df3686803f63eeee0` |
 | `CONTRIBUTING.md` | 2926 | `1fd76c4fdb7a869191cd5231445ce894` |
 | `DISCLAIMER.md` | 9337 | `65f154a408ad1fe8ef9025a91a2243d4` |
 | `DISCLOSURE.md` | 990 | `9c8e88a273dc1866093c2217e59380ed` |
-| `FINGERPRINTS.md` | 7276 | `dc623728d201ed99146fb38e67344de2` |
+| `FINGERPRINTS.md` | 7297 | `6a15af53df8a5dddf32e30e65b2124fc` |
 | `LICENSE` | 39364 | `7f8dc786ed75e1836fc4ce766157797f` |
 | `NOTICE` | 4692 | `9146f895ead1745c0cc5285a5cfdee4b` |
 | `README.md` | 7340 | `a54ea3fb2861c29cb1f5c4349e6029dd` |
@@ -100,4 +100,4 @@
 | `src/main.go` | 43020 | `1092bc67c4d316d87ce4997fcb9d237e` |
 | `src/ntcore.go` | 6248 | `d29e02bf81b8d4307bf795f128546488` |
 | `src/pb.go` | 5843 | `ab4ca18d29d05ef6e7d48076aae87258` |
-| `zql_version.json` | 1018 | `0127f3ffd09727e2850d9730d1bf2f65` |
+| `zql_version.json` | 1050 | `b5d1a3d680937e20070c8457403c2251` |
