@@ -28,7 +28,7 @@
 | `CONTRIBUTING.md` | 2926 | `1fd76c4fdb7a869191cd5231445ce894` |
 | `DISCLAIMER.md` | 9337 | `65f154a408ad1fe8ef9025a91a2243d4` |
 | `DISCLOSURE.md` | 990 | `9c8e88a273dc1866093c2217e59380ed` |
-| `FINGERPRINTS.md` | 7210 | `b829b8c47497c7b866941d32b2d6eaab` |
+| `FINGERPRINTS.md` | 7210 | `de32ea471cec66d1eee5f0e7571e2fd2` |
 | `LICENSE` | 39364 | `7f8dc786ed75e1836fc4ce766157797f` |
 | `NOTICE` | 4692 | `9146f895ead1745c0cc5285a5cfdee4b` |
 | `README.md` | 7340 | `a54ea3fb2861c29cb1f5c4349e6029dd` |
@@ -101,3 +101,4 @@
 | `src/main.go` | 43020 | `1092bc67c4d316d87ce4997fcb9d237e` |
 | `src/ntcore.go` | 6248 | `d29e02bf81b8d4307bf795f128546488` |
 | `src/pb.go` | 5843 | `ab4ca18d29d05ef6e7d48076aae87258` |
+| `zql_version.json` | 713 | `5686fcc120540f05823e07fd6d061122` |

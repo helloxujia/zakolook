@@ -1,0 +1,18 @@
+{
+    "name": "ZakoQLook (zql)",
+    "version": "1.5.1",
+    "version_code": 1510,
+    "date": "2026-10-07",
+    "arch": "arm64",
+    "min_sdk": 23,
+    "url": "https://gitee.com/xujia2024/zakolook/releases/download/v1.5.1/zql",
+    "md5": "f349891729f23fdc9e9f383de38f7bad",
+    "file_size": 7143584,
+    "full_url": "https://gitee.com/xujia2024/zakolook/releases/download/v1.5.1/zql-v1.5.1.tar.gz",
+    "full_md5": "86cb530c0e66be7b8e464fa017a76c1c",
+    "full_size": 3103128,
+    "install_path": "/data/local/tmp/zql",
+    "install_cmd": "cp zql /data/local/tmp/zql && chmod 755 /data/local/tmp/zql",
+    "repo": "https://gitee.com/xujia2024/zakolook",
+    "mirror": "https://github.com/helloxujia/zakolook"
+}
