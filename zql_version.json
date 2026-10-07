@@ -16,4 +16,4 @@
     "repo": "https://gitee.com/xujia2024/zakolook",
     "mirror": "https://github.com/helloxujia/zakolook",
     "changelog": "1. 修复 self-* 取资料无 WHERE（同空间多账号时取到别人的资料）\\n2. 修复 pick() 默认账号取目录顺序第一个（现取当前活动账号）\\n3. 文档补 accounts 一节与 --qq 选项"
-}\n
+}
