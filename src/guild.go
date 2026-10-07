@@ -178,7 +178,7 @@ func loadGuilds(db *sql.DB) ([]Guild, error) {
 		g := Guild{
 			ID:     strconv.FormatInt(id, 10),
 			Name:   pbText(f, 8),
-			Short:  pbText(f, 27), // 对外短名（如 sample-channel / pd07843201）
+			Short:  pbText(f, 27), // 对外短名
 			Joined: tabs[mrlPfx+strconv.FormatInt(id, 10)],
 		}
 		if g.Name == "" {

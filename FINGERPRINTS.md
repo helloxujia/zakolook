@@ -11,7 +11,7 @@
 
 | 文件 | 字节 | MD5 |
 |---|---|---|
-| `bin/zql` | 7143584 | `2a2662c9400d78ad6c40f9b1a92a79c7` |
+| `bin/zql` | 7143584 | `f349891729f23fdc9e9f383de38f7bad` |
 | `shell/QQ查询工具箱.sh` | 17484 | `551d6df3ccff66a21e1bbe72d3ae6898` |
 
 > 校验：`md5sum -c` 或对照上表。
@@ -26,15 +26,15 @@
 | `.gitignore` | 36 | `3e6ed1f7aaf9a5a714401604eb287698` |
 | `AUTHORS` | 1529 | `98b62fd9f19ea164e28f46e0dbcd4190` |
 | `CONTRIBUTING.md` | 2926 | `1fd76c4fdb7a869191cd5231445ce894` |
-| `DISCLAIMER.md` | 9353 | `3052249c7cd4c634d4838cdf984daeab` |
+| `DISCLAIMER.md` | 9337 | `65f154a408ad1fe8ef9025a91a2243d4` |
 | `DISCLOSURE.md` | 990 | `9c8e88a273dc1866093c2217e59380ed` |
-| `FINGERPRINTS.md` | 7263 | `2ab6b1529d75998ab361a78664cfb395` |
+| `FINGERPRINTS.md` | 7210 | `b829b8c47497c7b866941d32b2d6eaab` |
 | `LICENSE` | 39364 | `7f8dc786ed75e1836fc4ce766157797f` |
 | `NOTICE` | 4692 | `9146f895ead1745c0cc5285a5cfdee4b` |
 | `README.md` | 7340 | `a54ea3fb2861c29cb1f5c4349e6029dd` |
 | `ROADMAP.md` | 2229 | `0d2ed07120572298b96e692c3421b0cd` |
 | `TRADEMARK.md` | 1950 | `f232c2d7d8e6a89e2036f94110e1b0ea` |
-| `art/README.md` | 2419 | `c57d1ae9ef82a0a73b4b2d826bd5eddb` |
+| `art/README.md` | 2417 | `f6af9a6db70d4c667f6f59fdae4492c3` |
 | `art/images/01-zako-laugh.png` | 2442302 | `323ce7807ed366aef0a7a886dc1e60e0` |
 | `art/images/02-mooncake-give.png` | 681859 | `138fc64a8ae59a0c06c25a4b828ae7f8` |
 | `art/images/03-mooncake-tasty.png` | 561486 | `96ed093aa5c2c69f756b5803fae2b4af` |
@@ -52,14 +52,14 @@
 | `art/thumbs/06-shy.jpg` | 26682 | `daa16bfb93f6b9b7d8fef9b6b714caf7` |
 | `art/thumbs/07-moonlit-night.jpg` | 151715 | `d9e420ff946a7d5a02941ac93e10821a` |
 | `art/thumbs/08-midautumn-card.jpg` | 227944 | `0bdeed7c15e5c204192c2aa48b71803a` |
-| `bin/zql` | 7143584 | `2a2662c9400d78ad6c40f9b1a92a79c7` |
-| `doc/原理与实现.md` | 4338 | `c19ab0cb868052a318752f08a97f4335` |
-| `doc/命令参考.md` | 15488 | `c3aaaa8381d4baa8e91c9317bc23589b` |
+| `bin/zql` | 7143584 | `f349891729f23fdc9e9f383de38f7bad` |
+| `doc/原理与实现.md` | 4330 | `3157168fdf23f6aa469ca05c9dc4d89a` |
+| `doc/命令参考.md` | 15477 | `fa055946712628ece94a64a752b30d50` |
 | `doc/调用规范.md` | 13153 | `f2830f1dcb9e96baae517ab6c48cbc73` |
 | `doc/退出码与输出约定.md` | 3451 | `447eb986ce880912e8735add3689829b` |
 | `doc/频道库解密原理.md` | 5520 | `dbd0eb968f5f1bae8d1ae66c290253d9` |
 | `history/FINGERPRINTS.md` | 2484 | `6a4bd872d1d9a4ea45b91914120171f9` |
-| `history/README.md` | 4789 | `179311f52a3f03e8e85f8dc6839fc591` |
+| `history/README.md` | 4785 | `b156cdaee19ea96e631ca6fa7c7bfc91` |
 | `history/v2.0_qqcheck/LICENSE.txt` | 610 | `de52d0e606ca689289713e56c858d553` |
 | `history/v2.0_qqcheck/README.txt` | 865 | `376970a5dedeb2e3e9cb9768ad3b8dcf` |
 | `history/v2.0_qqcheck/README_发行版.txt` | 2117 | `f17d6cb07754704615772b9616284d35` |
@@ -96,7 +96,7 @@
 | `src/decrypt2.go` | 7968 | `838e5eae8d1103616e721c7fbcc412db` |
 | `src/go.mod` | 501 | `1921caafc0797990771e4eb9e5cc9116` |
 | `src/go.sum` | 1710 | `ad3a909d5678c6153f37e140a535f81d` |
-| `src/guild.go` | 11155 | `d92870a731d3e4c7d486d9119112659b` |
+| `src/guild.go` | 11118 | `c60c73db9ffc378ec957841fe70fc151` |
 | `src/guild2.go` | 11776 | `d9ae6f6c365f7f2fb3e0a213bd83cd2a` |
 | `src/main.go` | 43020 | `1092bc67c4d316d87ce4997fcb9d237e` |
 | `src/ntcore.go` | 6248 | `d29e02bf81b8d4307bf795f128546488` |
