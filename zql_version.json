@@ -9,7 +9,7 @@
     "md5": "633c4c9d1951ccc34c2af3f60f00f34d",
     "file_size": 7143584,
     "full_url": "https://gitee.com/xujia2024/zakolook/releases/download/v1.5.3/zql-v1.5.3.tar.gz",
-    "full_md5": "",
+    "full_md5": "966e3e5bfe3e77a3901b2a928a76b6c9",
     "full_size": 3106982,
     "install_path": "/data/local/tmp/zql",
     "install_cmd": "cp zql /data/local/tmp/zql && chmod 755 /data/local/tmp/zql",
