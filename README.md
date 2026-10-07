@@ -55,6 +55,8 @@ group-title / group-level / group-members
 group-owner / group-admins / group-roles   群主 / 管理员 / 角色总览
 user / user-name / user-age             指定 QQ 的资料
 self-groups / self-summary              我在各群的记录 / 群画像
+accounts                                列出账号：空间 / QQ号 / 昵称 / 活动-历史
+  --qq <QQ号>                           全局选项：定向到指定账号（多账号/分身场景）
 msgs <群号> [--kw 词]     群消息检索（限本人已加入的群）
 ```
 

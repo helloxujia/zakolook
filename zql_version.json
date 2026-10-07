@@ -1,19 +1,19 @@
 {
     "name": "ZakoQLook (zql)",
-    "version": "1.5.2",
-    "version_code": 1520,
+    "version": "1.5.3",
+    "version_code": 1530,
     "date": "2026-10-07",
     "arch": "arm64",
     "min_sdk": 23,
-    "url": "https://gitee.com/xujia2024/zakolook/releases/download/v1.5.2/zql",
-    "md5": "a0cc3fd227725a1c218be9bf04d1e86b",
+    "url": "https://gitee.com/xujia2024/zakolook/releases/download/v1.5.3/zql",
+    "md5": "633c4c9d1951ccc34c2af3f60f00f34d",
     "file_size": 7143584,
-    "full_url": "https://gitee.com/xujia2024/zakolook/releases/download/v1.5.2/zql-v1.5.2.tar.gz",
-    "full_md5": "e1273f833ed2071b127726d90e28e2b2",
+    "full_url": "https://gitee.com/xujia2024/zakolook/releases/download/v1.5.3/zql-v1.5.3.tar.gz",
+    "full_md5": "",
     "full_size": 3106982,
     "install_path": "/data/local/tmp/zql",
     "install_cmd": "cp zql /data/local/tmp/zql && chmod 755 /data/local/tmp/zql",
     "repo": "https://gitee.com/xujia2024/zakolook",
     "mirror": "https://github.com/helloxujia/zakolook",
-    "changelog": "1. 修复：同一账号空间并存多个库目录时的 uid 张冠李戴（导致解密失败、群判定误报不在群）\n2. 新增 --qq 定向：多账号（含应用分身）场景下指定要查询的账号\n3. 新增 accounts：列出 空间 / QQ号 / 昵称 / 活动-历史（活动即当前在线账户）"
-}
+    "changelog": "1. 修复 self-* 取资料无 WHERE（同空间多账号时取到别人的资料）\\n2. 修复 pick() 默认账号取目录顺序第一个（现取当前活动账号）\\n3. 文档补 accounts 一节与 --qq 选项"
+}\n

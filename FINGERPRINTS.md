@@ -2,7 +2,7 @@
 
 **修改过的版本，指纹必然与此表不符。**
 
-版本：ZakoQLook (zql) **v1.5.2**
+版本：ZakoQLook (zql) **v1.5.3**
 许可：**AGPL-3.0-or-later**（LICENSE 末尾含 §7 追加条款 6 项）；`mascot.png` 与 `art/` 下美术作品另行保留权利
 仓库：Gitee https://gitee.com/xujia2024/zakolook ｜ GitHub https://github.com/helloxujia/zakolook
 生成：2026-10-07
@@ -11,7 +11,7 @@
 
 | 文件 | 字节 | MD5 |
 |---|---|---|
-| `bin/zql` | 7143584 | `a0cc3fd227725a1c218be9bf04d1e86b` |
+| `bin/zql` | 7143584 | `633c4c9d1951ccc34c2af3f60f00f34d` |
 | `shell/QQ查询工具箱.sh` | 17484 | `551d6df3ccff66a21e1bbe72d3ae6898` |
 
 ## 二、全部文件
@@ -23,14 +23,14 @@
 | `.github/workflows/ci.yml` | 763 | `b3972a898c8cacc1b033830fa99517c1` |
 | `.gitignore` | 36 | `3e6ed1f7aaf9a5a714401604eb287698` |
 | `AUTHORS` | 1529 | `98b62fd9f19ea164e28f46e0dbcd4190` |
-| `CHANGELOG.md` | 3134 | `79524ddaa55aa05df3686803f63eeee0` |
+| `CHANGELOG.md` | 5191 | `3bc7adb11f2bbf742148f45c5250e38a` |
 | `CONTRIBUTING.md` | 2926 | `1fd76c4fdb7a869191cd5231445ce894` |
 | `DISCLAIMER.md` | 9337 | `65f154a408ad1fe8ef9025a91a2243d4` |
 | `DISCLOSURE.md` | 990 | `9c8e88a273dc1866093c2217e59380ed` |
-| `FINGERPRINTS.md` | 7297 | `6a15af53df8a5dddf32e30e65b2124fc` |
+| `FINGERPRINTS.md` | 7297 | `ac2d6ad453ff1276ce4908c6de69767e` |
 | `LICENSE` | 39364 | `7f8dc786ed75e1836fc4ce766157797f` |
 | `NOTICE` | 4692 | `9146f895ead1745c0cc5285a5cfdee4b` |
-| `README.md` | 7340 | `a54ea3fb2861c29cb1f5c4349e6029dd` |
+| `README.md` | 7541 | `632847cafc69f9d9681757f2ab5f44f5` |
 | `ROADMAP.md` | 2229 | `0d2ed07120572298b96e692c3421b0cd` |
 | `TRADEMARK.md` | 1950 | `f232c2d7d8e6a89e2036f94110e1b0ea` |
 | `art/README.md` | 2417 | `f6af9a6db70d4c667f6f59fdae4492c3` |
@@ -51,10 +51,10 @@
 | `art/thumbs/06-shy.jpg` | 26682 | `daa16bfb93f6b9b7d8fef9b6b714caf7` |
 | `art/thumbs/07-moonlit-night.jpg` | 151715 | `d9e420ff946a7d5a02941ac93e10821a` |
 | `art/thumbs/08-midautumn-card.jpg` | 227944 | `0bdeed7c15e5c204192c2aa48b71803a` |
-| `bin/zql` | 7143584 | `a0cc3fd227725a1c218be9bf04d1e86b` |
+| `bin/zql` | 7143584 | `633c4c9d1951ccc34c2af3f60f00f34d` |
 | `doc/原理与实现.md` | 4330 | `3157168fdf23f6aa469ca05c9dc4d89a` |
-| `doc/命令参考.md` | 15477 | `fa055946712628ece94a64a752b30d50` |
-| `doc/调用规范.md` | 13153 | `f2830f1dcb9e96baae517ab6c48cbc73` |
+| `doc/命令参考.md` | 16536 | `3db5343df230fc3b8641fa75e2afff4a` |
+| `doc/调用规范.md` | 13961 | `07d681ef2b1e1cbd09a12d044eb3ee75` |
 | `doc/退出码与输出约定.md` | 3451 | `447eb986ce880912e8735add3689829b` |
 | `doc/频道库解密原理.md` | 5520 | `dbd0eb968f5f1bae8d1ae66c290253d9` |
 | `history/FINGERPRINTS.md` | 2484 | `6a4bd872d1d9a4ea45b91914120171f9` |
@@ -100,4 +100,4 @@
 | `src/main.go` | 43020 | `1092bc67c4d316d87ce4997fcb9d237e` |
 | `src/ntcore.go` | 6248 | `d29e02bf81b8d4307bf795f128546488` |
 | `src/pb.go` | 5843 | `ab4ca18d29d05ef6e7d48076aae87258` |
-| `zql_version.json` | 1050 | `b5d1a3d680937e20070c8457403c2251` |
+| `zql_version.json` | 918 | `97d81ff63fff77417e7fe475de5aaf91` |
