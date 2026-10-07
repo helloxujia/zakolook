@@ -3,7 +3,7 @@
 **修改过的版本，指纹必然与此表不符。**
 
 版本：ZakoQLook (zql) **v1.5.3**
-许可：**AGPL-3.0-or-later**（LICENSE 末尾含 §7 追加条款 6 项）；`mascot.png` 与 `art/` 下美术作品另行保留权利
+许可：**AGPL-3.0-or-later**（LICENSE 末尾含 §7 追加条款 6 项）
 仓库：Gitee https://gitee.com/xujia2024/zakolook ｜ GitHub https://github.com/helloxujia/zakolook
 生成：2026-10-07
 
@@ -27,7 +27,7 @@
 | `CONTRIBUTING.md` | 2926 | `1fd76c4fdb7a869191cd5231445ce894` |
 | `DISCLAIMER.md` | 9337 | `65f154a408ad1fe8ef9025a91a2243d4` |
 | `DISCLOSURE.md` | 990 | `9c8e88a273dc1866093c2217e59380ed` |
-| `FINGERPRINTS.md` | 7297 | `ac2d6ad453ff1276ce4908c6de69767e` |
+| `FINGERPRINTS.md` | 7296 | `4d6e7f409c6759784eebce310579a08c` |
 | `LICENSE` | 39364 | `7f8dc786ed75e1836fc4ce766157797f` |
 | `NOTICE` | 4692 | `9146f895ead1745c0cc5285a5cfdee4b` |
 | `README.md` | 7541 | `632847cafc69f9d9681757f2ab5f44f5` |
