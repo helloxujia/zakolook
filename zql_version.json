@@ -1,18 +1,19 @@
 {
     "name": "ZakoQLook (zql)",
-    "version": "1.5.1",
-    "version_code": 1510,
+    "version": "1.5.2",
+    "version_code": 1520,
     "date": "2026-10-07",
     "arch": "arm64",
     "min_sdk": 23,
-    "url": "https://gitee.com/xujia2024/zakolook/releases/download/v1.5.1/zql",
-    "md5": "f349891729f23fdc9e9f383de38f7bad",
+    "url": "https://gitee.com/xujia2024/zakolook/releases/download/v1.5.2/zql",
+    "md5": "a0cc3fd227725a1c218be9bf04d1e86b",
     "file_size": 7143584,
-    "full_url": "https://gitee.com/xujia2024/zakolook/releases/download/v1.5.1/zql-v1.5.1.tar.gz",
-    "full_md5": "86cb530c0e66be7b8e464fa017a76c1c",
+    "full_url": "https://gitee.com/xujia2024/zakolook/releases/download/v1.5.2/zql-v1.5.2.tar.gz",
+    "full_md5": "",
     "full_size": 3103128,
     "install_path": "/data/local/tmp/zql",
     "install_cmd": "cp zql /data/local/tmp/zql && chmod 755 /data/local/tmp/zql",
     "repo": "https://gitee.com/xujia2024/zakolook",
-    "mirror": "https://github.com/helloxujia/zakolook"
+    "mirror": "https://github.com/helloxujia/zakolook",
+    "changelog": "1. 修复：同一账号空间并存多个库目录时的 uid 张冠李戴（导致解密失败、群判定误报不在群）\n2. 新增 --qq 定向：多账号（含应用分身）场景下指定要查询的账号\n3. 新增 accounts：列出 空间 / QQ号 / 昵称 / 活动-历史（活动即当前在线账户）"
 }
